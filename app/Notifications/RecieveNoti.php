@@ -9,7 +9,7 @@ use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Messages\SlackMessage;
 use Illuminate\Notifications\Messages\BroadcastMessage;
 
-class RecieveNoti extends Notification implements ShouldQueue
+class RecieveNoti extends Notification
 {
     use Queueable;
     private $details;
@@ -48,7 +48,7 @@ class RecieveNoti extends Notification implements ShouldQueue
         ->subject('Notification Subject')
         ->from('newteltest12@gmail.com','some_name') 
         ->view(
-            'Email.layout', ['data' => $this->details]
+            'Email.createUser', ['data' => $this->details]
         );
     }
 
