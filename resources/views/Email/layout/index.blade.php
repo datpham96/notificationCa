@@ -77,7 +77,7 @@
         }
 
         .content-block {
-            padding: 0 0 20px;
+            padding: 0 0 20px 30px;
         }
 
         .header {
@@ -161,9 +161,9 @@
         .btn-primary {
             text-decoration: none;
             color: #FFF;
-            background-color: #42A5F5;
-            border: solid #42A5F5;
-            border-width: 10px 20px;
+            background-color: #00b050;
+            border: solid #00b050;
+            border-width: 12px 60px;
             line-height: 2em;
             /* 2em * 14px = 28px, use px to get airier line-height also in Thunderbird, and Yahoo!, Outlook.com, AOL webmail clients */
             /*line-height: 28px;*/
