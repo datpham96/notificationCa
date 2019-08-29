@@ -10,9 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',function(){
+    return view('sendNoti');
 });
 
+Route::get('send', 'NotificationCtrl@sendNotification');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 Route::get('email/{email}', "RenderViewEmail@email");
