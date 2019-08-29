@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Notification;
 use App\Notifications\RecieveNoti;
 use App\User;
-use Illuminate\Support\Facades\Auth;
 
 class NotificationCtrl extends Controller
 {
@@ -15,10 +14,10 @@ class NotificationCtrl extends Controller
 
         $user = User::first();
   
-        foreach ($user->notifications as $notification) {
-            var_dump($notification->data);
-        }
-        die();
+        // foreach ($user->notifications as $notification) {
+        //     var_dump($notification->data);
+        // }
+        // die();
         // $user->unreadNotifications->markAsRead();
         
         $details = [

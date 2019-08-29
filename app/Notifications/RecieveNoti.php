@@ -33,7 +33,7 @@ class RecieveNoti extends Notification implements ShouldQueue
      */
     public function via($notifiable)
     {
-        return ['broadcast'];
+        return ['mail'];
     }
 
     /**
@@ -45,10 +45,11 @@ class RecieveNoti extends Notification implements ShouldQueue
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->greeting($this->details['greeting'])
-            ->line($this->details['body'])
-            ->action($this->details['actionText'], $this->details['actionURL'])
-            ->line($this->details['thanks']);
+        ->subject('Notification Subject')
+        ->from('newteltest12@gmail.com','some_name') 
+        ->view(
+            'Email.layout', ['data' => $this->details]
+        );
     }
 
     /**

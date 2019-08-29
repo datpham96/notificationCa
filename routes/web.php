@@ -19,3 +19,4 @@ Route::get('send', 'NotificationCtrl@sendNotification');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('email/{email}', "RenderViewEmail@email");
