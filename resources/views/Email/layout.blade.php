@@ -6,6 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Nofification CA</title>
     <link href="{{ asset('/css/style.css') }}" media="all" rel="stylesheet" type="text/css" />
+    <style>
+        
+    </style>
 </head>
 
 <body>
