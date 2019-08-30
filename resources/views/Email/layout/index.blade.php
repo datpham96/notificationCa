@@ -41,7 +41,7 @@
 ------------------------------------- */
         body {
             background-color: #ecf0f5;
-            color: #6c7b88
+            color: #404142
         }
 
         .body-wrap {
