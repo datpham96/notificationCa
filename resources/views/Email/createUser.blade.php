@@ -8,17 +8,41 @@
 </tr>
 <tr>
 	<td class="content-block">
-		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+		<h4>Xin chào (tên người dùng/ khách hàng)</h4>
 	</td>
 </tr>
 <tr>
 	<td class="content-block">
-		Please confirm your email address by clicking the link below.
+		<h4>Xin chào (tên người dùng/ khách hàng)</h4>
+		<p>Yêu cầu thay đổi thông tin của bạn đã được thực hiện thành công. </p>
 	</td>
 </tr>
 <tr>
 	<td class="content-block">
-		We may need to send you critical information about our service and it is important that we have an accurate email address.
+		<h4>Thông tin cũ: </h4>
+		<p>-</p>
+	</td>
+
+
+</tr>
+<tr>
+	<td class="content-block">
+		<h4>Thông tin mới: </h4>
+		<p>-</p>
+	</td>
+</tr>
+<tr>
+	<td class="content-block">
+		<p>Vui lòng liên lạc tổng đài hỗ trợ để biết thêm thông tin.</p>
+		<p>Cảm ơn bạn đã sử dụng dịch vụ.</p>
+	</td>
+</tr>
+<tr>
+	<td class="content-block">
+		<div>
+			<h4>Dịch vụ Chứng thực Chữ ký số Công cộng MobiCA</h4>
+			<p> <b>Điện thoại hỗ trợ:</b> 0896.155.155 <b>Email:</b>support.cntt@mobifone.vn <b>Website:</b> mobifone.vn </p>
+		</div>
 	</td>
 </tr>
 <tr>

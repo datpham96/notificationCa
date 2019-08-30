@@ -3,38 +3,30 @@
 @section('content')
 <tr>
 	<td class="content-block">
-		<h3>Tạo tài khoản</h3>
+		<h3>Thông báo cấp mới chứng thư số thành công</h3>
 	</td>
 </tr>
 <tr>
 	<td class="content-block">
 		<h4>Xin chào (tên người dùng/ khách hàng)</h4>
-	</td>
-</tr>
-<tr>
-	<td class="content-block">
-		<h4>Xin chào (tên người dùng/ khách hàng)</h4>
-		<p>Yêu cầu thay đổi thông tin của bạn đã được thực hiện thành công. </p>
-	</td>
-</tr>
-<tr>
-	<td class="content-block">
-		<h4>Thông tin cũ: </h4>
-		<p>-</p>
+		<p> Bạn đã đăng ký thành công gói dịch vụ chữ ký số (x) năm.
+		</p>
 	</td>
 
-
 </tr>
 <tr>
 	<td class="content-block">
-		<h4>Thông tin mới: </h4>
-		<p>-</p>
+		<h4>Thông tin chứng thư:</h4>
+		<p>- Tên cá nhân/tổ chức: (Lấy từ chứng thư)</p>
+		<p>- Số CMND/CCCD/MST/Passport: (Lấy từ chứng thư)</p>
+		<p>- Thời hạn của chứng thư: (Lấy từ chứng thư)</p>
 	</td>
 </tr>
 <tr>
 	<td class="content-block">
-		<p>Vui lòng liên lạc tổng đài hỗ trợ để biết thêm thông tin.</p>
-		<p>Cảm ơn bạn đã sử dụng dịch vụ.</p>
+		<h4>Thông tin hợp đồng:</h4>
+		<p>- Thời hạn của hợp đồng trước khi gia hạn: </p>
+		<p>- Thời hạn của hợp đồng sau khi gia hạn: </p>
 	</td>
 </tr>
 <tr>
@@ -45,5 +37,4 @@
 		</div>
 	</td>
 </tr>
-
 @endsection
