@@ -14,7 +14,7 @@
             margin: 0;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             box-sizing: border-box;
-            font-size: 14px;
+           
         }
 
         img {
@@ -78,6 +78,11 @@
 
         .content-block {
             padding: 0 0 20px 30px;
+            font-size: 14px;
+        }
+        .content-block-small{
+            padding: 0 0 10px 30px;
+            font-size: 11px;
         }
 
         .header {
