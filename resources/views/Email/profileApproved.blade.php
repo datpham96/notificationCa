@@ -3,18 +3,18 @@
 @section('content')
 <tr>
 	<td class="content-block">
-		<h3>[Dịch vụ MobiCA] - Thông báo hồ sơ đã được phê duyệt  </h3>
+		<h3>[Dịch vụ MobiCA] - Thông báo hồ sơ đã được phê duyệt </h3>
 	</td>
 </tr>
 <tr>
 	<td class="content-block">
 		<h4>Xin chào (tên người dùng/ khách hàng)</h4>
-		<p>Giao dịch (Transaction ID) đã được phê duyệt. </p>
-		<p>Thông tin khách hàng: </p>
-		<p>- Tên khách hàng: </p>
-		<p>- CMND/CCCD/Passport/MST</p>
-		<p>- Email:</p>
-		<p>- Số điện thoại: </p>
+		Giao dịch (Transaction ID) đã được phê duyệt.<br />
+		Thông tin khách hàng:<br />
+		- Tên khách hàng:<br />
+		- CMND/CCCD/Passport/MST<br />
+		- Email:<br />
+		- Số điện thoại:
 	</td>
 
 </tr>

@@ -9,13 +9,13 @@
 <tr>
 	<td class="content-block">
 		<h4>Xin chào (tên người dùng/ khách hàng)</h4>
-		<p>Giao dịch (Transaction ID) đã bị từ chối. </p>
-		<p>Lý do: </p>
-		<p>Thông tin khách hàng: </p>
-		<p>- Tên khách hàng: </p>
-		<p>- CMND/CCCD/Passport/MST</p>
-		<p>- Email:</p>
-		<p>- Số điện thoại: </p>
+		Giao dịch (Transaction ID) đã bị từ chối. <br />
+		Lý do: <br />
+		Thông tin khách hàng: <br />
+		- Tên khách hàng: <br />
+		- CMND/CCCD/Passport/MST <br />
+		- Email:<br />
+		- Số điện thoại:
 	</td>
 
 </tr>

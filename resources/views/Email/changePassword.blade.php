@@ -8,22 +8,7 @@
 </tr>
 <tr>
 	<td class="content-block">
-		Tài khoản của bạn đã được tạo thành công.
-	</td>
-</tr>
-<tr>
-	<td class="content-block" style="padding-bottom:10px">
-		Thông tin tài khoản:
-	</td>
-</tr>
-<tr>
-	<td class="content-block" style="padding-left:50px;padding-bottom:10px">
-		- Tên đăng nhập:
-	</td>
-</tr>
-<tr>
-	<td class="content-block" style="padding-left:50px">
-		- Mật khẩu:
+		Mặt khẩu của bạn đã được thay đổi thành công.
 	</td>
 </tr>
 <tr>
